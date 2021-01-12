@@ -1,6 +1,6 @@
 {
   "name": "classeviva-apiv2",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "This is an unofficial api to access data inside the ClasseViva electronic register.",
   "main": "app.js",
   "dependencies": {
@@ -22,5 +22,13 @@
     "api"
   ],
   "author": "Nicolò Rancan",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolo-rancan/classeviva-apiv2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicolo-rancan/classeviva-apiv2/issues"
+  },
+  "homepage": "https://github.com/nicolo-rancan/classeviva-apiv2#readme"
 }
