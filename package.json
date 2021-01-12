@@ -1,5 +1,5 @@
 {
-  "name": "@nicolo-rancand/classeviva-apiv2",
+  "name": "classeviva-apiv2",
   "version": "1.1.1",
   "description": "This is an unofficial api to access data inside the ClasseViva electronic register.",
   "main": "app.js",
