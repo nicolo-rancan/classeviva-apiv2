@@ -1,14 +1,13 @@
 {
   "name": "classeviva-apiv2",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "This is an unofficial api to access data inside the ClasseViva electronic register.",
   "main": "app.js",
   "dependencies": {
     "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.5",
     "cookie": "^0.4.1",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {},
   "scripts": {
