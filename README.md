@@ -4,17 +4,21 @@
 
 ## Installation
 
-`npm i classeviva-apiv2 --save`
+```js
+npm i classeviva-apiv2 --save
+```
 
 ## Usage
 
 ### Importing
 
-`const ClasseViva = require("classeviva-apiv2");`
+```js
+const ClasseViva = require("classeviva-apiv2");
+```
 
 ### Create session
 
-```
+```js
 ClasseViva.establishSession("username", "password").then(session => {
   ...
 });
