@@ -2,7 +2,6 @@ const axios = require('axios');
 const {AxiosRequestConfig, AxiosResponse} = require("axios");
 const cheerio = require("cheerio");
 const cookie = require("cookie");
-const {ClasseViva} = require("./ClasseViva");
 require("dotenv").config();
 
 class ClasseViva 
@@ -14,8 +13,7 @@ class ClasseViva
     notes: "https://web.spaggiari.eu/fml/app/default/gioprof_note_studente.php",
     today: "https://web.spaggiari.eu/cvv/app/default/regclasse.php",
     profile: "https://web.spaggiari.eu/acc/app/default/me.php?v=me",
-    assignment: "https://web.spaggiari.eu/fml/app/default/didattica_genitori_new.php",
-    arguments: ""
+    assignment: "https://web.spaggiari.eu/fml/app/default/didattica_genitori_new.php"
   }
 
   constructor(sessionId) {
@@ -156,10 +154,10 @@ class ClasseViva
     return profile;
   }
 
-  async getArguments() {
-    let response = await this.request({ url: ClasseViva.endpoints.profile });
-    let $ = cheerio.load(response.data);
-  }
+  // async getArguments() {
+  //   let response = await this.request({ url: ClasseViva.endpoints.profile });
+  //   let $ = cheerio.load(response.data);
+  // }
 
   request(config) {
     config.headers = config.headers ?? {};
