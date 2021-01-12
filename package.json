@@ -1,6 +1,6 @@
 {
   "name": "classeviva-apiv2",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "This is an unofficial api to access data inside the ClasseViva electronic register.",
   "main": "app.js",
   "dependencies": {
