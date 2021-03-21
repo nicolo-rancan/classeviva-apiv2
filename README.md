@@ -4,7 +4,7 @@
 
 ###### You can use this api to access your data on the Classe Viva's electronic register.
 
-###### This is an unofficial api, and it is inspired on another github repository.
+###### This is an unofficial api, and it is inspired by another github repository.
 
 ([Link](https://github.com/alex-sandri/classeviva-api))
 
